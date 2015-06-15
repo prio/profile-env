@@ -2,6 +2,13 @@
 
 A Leiningen plugin that outputs profile information so it can be used by bash or docker. Designed to be used with [environ](https://github.com/weavejester/environ).
 
+## Install
+
+Add to your ~/.lein/profiles.clj or include it in your project plugins.
+
+    [org.jonharrington/profile-env "0.1.0"]
+    
+
 ## Usage
 
 To output dev/testing profile
